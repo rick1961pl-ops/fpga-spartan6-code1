@@ -218,7 +218,7 @@ ram[0] = CMD_SD_SEND (40)
 To request permission for any use not explicitly permitted above, contact the author:
 
 **Ryszard Paluch**
-- Email: [rick1961pl@gmail.com](mailto:rick1961pl@gmail.com)
+- Email: [rick1961pl@gmail.com](mailto:info@retro.aurora.com.pl)
 - GitHub: [@rick1961pl-ops](https://github.com/rick1961pl-ops)
 
 All requests are reviewed individually. **Permission is granted only in writing (email) and only for the specific use described in the request.** The author reserves the right to refuse permission or to grant it under additional conditions (e.g. royalty fees, attribution requirements).
