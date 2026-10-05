@@ -232,5 +232,5 @@ THIS CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
 
 **Ryszard Paluch**
 - GitHub: [@rick1961pl-ops](https://github.com/rick1961pl-ops)
-- Email: [rick1961pl@gmail.com](mailto:rick1961pl@gmail.com)
+- Email: [info@retro.aurora.com.pl](mailto:info@retro.aurora.com.pl)
 - Year: 2026
