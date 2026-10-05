@@ -1,0 +1,97 @@
+All Rights Reserved
+Copyright (c) 2026 Ryszard Paluch. All rights reserved.
+
+================================================================================
+                            TERMS AND CONDITIONS
+================================================================================
+
+This source code, documentation, schematics, and all associated files
+(collectively, "the Work") are the exclusive property of Ryszard Paluch
+("the Author").
+
+By accessing, viewing, or using the Work, you agree to the following terms
+and conditions. If you do not agree, you must not access, view, or use
+the Work.
+
+================================================================================
+                            PERMITTED USE
+================================================================================
+
+You ARE permitted to:
+
+  1. View the source code.
+
+  2. Read and study the source code for personal, non-commercial,
+     educational purposes only.
+
+  3. Fork the repository on GitHub (as required by GitHub Terms of Service),
+     provided that the fork retains this license in its entirety and is
+     not used for any purpose other than personal study.
+
+  4. Reference this project in academic or educational work, provided that
+     proper attribution is given to the Author (name, repository URL).
+
+================================================================================
+                            PROHIBITED USE
+================================================================================
+
+You are NOT permitted to, without prior written permission from the Author:
+
+  1. Use this code, in whole or in part, in any commercial product,
+     service, or offering.
+
+  2. Copy, modify, or create derivative works based on this code.
+
+  3. Redistribute, sublicense, or publish this code in any form,
+     including but not limited to: GitHub, GitLab, Bitbucket, personal
+     websites, forums, or any other public or private distribution
+     channel.
+
+  4. Use this code in any project, repository, or product that is
+     publicly distributed.
+
+  5. Use this code in any product that is sold, licensed, or monetized
+     in any way.
+
+  6. Remove or alter this license, copyright notice, or author
+     information.
+
+  7. Claim authorship of this code or any part of it.
+
+  8. Use this code in any project that competes with the Author's
+     commercial interests.
+
+  9. Use this code for any purpose other than personal study.
+
+================================================================================
+                        REQUESTS FOR PERMISSION
+================================================================================
+
+To request permission for any use not explicitly permitted above, contact
+the Author:
+
+    Ryszard Paluch
+    Email: rick1961pl@gmail.com
+    GitHub: https://github.com/rick1961pl-ops
+
+All requests are reviewed individually. Permission is granted only in
+writing (email) and only for the specific use described in the request.
+The Author reserves the right to refuse permission or to grant it under
+additional conditions (e.g. royalty fees, attribution requirements).
+
+================================================================================
+                            NO WARRANTY
+================================================================================
+
+THIS CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE CODE OR THE USE OR OTHER DEALINGS
+IN THE CODE.
+
+================================================================================
+                            END OF TERMS
+================================================================================
