@@ -116,6 +116,26 @@ The system is controlled by a custom CPU through a simple command interface.
 
 ### Example: Clear Framebuffer
 
+```
+ram[0] = CMD_CLEAR_FRAMEBUFFER (1)
+→ FPGA clears entire 640x480 framebuffer
+→ ram[15] bit 0 = 0 (idle)
+```
+
+### Example: Send SD Card Command
+
+```
+ram[1] = SD command number (e.g. 0 for CMD0)
+ram[2] = argument [31:24]
+ram[3] = argument [23:16]
+ram[4] = argument [15:8]
+ram[5] = argument [7:0]
+ram[6] = CRC
+ram[0] = CMD_SD_SEND (40)
+→ FPGA sends command to SD card
+→ ram[10] = R1 response
+→ ram[15] bit 4 = 1 (SD done)
+```
 
 ## Memory Map (CPU Registers)
 
