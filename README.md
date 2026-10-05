@@ -16,6 +16,14 @@
 | `ram[14]` | `REG_CURSOR_CTRL` | Cursor control register |
 | `ram[15]` | `REG_STATUS_VGA` | Status register |
 
+### Interrupt Registers
+
+| Register | Name | Description |
+|---|---|---|
+| `ram[16]` | `REG_INT_FLAGS` | Active interrupt flags |
+| `ram[17]` | `REG_CLEAR_FLAGS` | Write 1 to clear flag |
+| `ram[18]` | `REG_INT_ENABLE` | Interrupt enable mask |
+
 ## Status Register (ram[15])
 
 | Bit | Name | Description |
@@ -27,6 +35,19 @@
 | 4 | `STATUS_SD` | 1 = SD operation finished |
 | 5 | `STATUS_SD_PRESENT` | 1 = SD card inserted |
 | 6 | `STATUS_SD_POWER` | 1 = SD card power enabled |
+| 7 | (reserved) | — |
+
+## Interrupt Sources
+
+| Bit | Name | Description |
+|---|---|---|
+| 0 | `IRQ_TIMER8_OVF` | 8-bit timer overflow |
+| 1 | `IRQ_TIMER8_CMP` | 8-bit timer compare match |
+| 2 | `IRQ_PS2` | PS/2 key code ready |
+| 3 | `IRQ_UART_RX` | UART data received |
+| 4 | `IRQ_UART_TX` | UART transmission finished |
+| 5 | `IRQ_CMD_DONE` | Long command finished |
+| 6 | `IRQ_RTS` | RTS line changed |
 | 7 | (reserved) | — |
 
 ## License
@@ -45,4 +66,5 @@ See the `LICENSE` file for full terms.
 
 **Ryszard Paluch**
 - GitHub: [@rick1961pl-ops](https://github.com/rick1961pl-ops)
+- Email: [rick1961pl@gmail.com](mailto:rick1961pl@gmail.com)
 - Year: 2026
