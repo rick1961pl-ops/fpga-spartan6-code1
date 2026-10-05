@@ -53,14 +53,41 @@
 ## License
 
 **All Rights Reserved.**
+**Copyright (c) 2026 Ryszard Paluch. All rights reserved.**
 
-This source code is the exclusive property of **Ryszard Paluch**.
-You may view and study it for personal, non-commercial, educational purposes only.
+### What you CAN do
 
-Any other use — including commercial use, modification, redistribution,
-or use in other projects — requires prior written permission from the author.
+- ✅ **View** the source code.
+- ✅ **Read** and **study** the source code.
+- ✅ **Use** the source code for **personal, non-commercial, educational purposes only**.
+- ✅ **Fork** the repository on GitHub (as required by GitHub Terms of Service).
+- ✅ **Reference** this project in academic or educational work (with proper attribution).
 
-See the `LICENSE` file for full terms.
+### What you CANNOT do
+
+- ❌ **You CANNOT use this code in any commercial product or service.**
+- ❌ **You CANNOT copy, modify, or create derivative works** based on this code.
+- ❌ **You CANNOT redistribute, sublicense, or publish** this code in any form.
+- ❌ **You CANNOT use this code in any project, repository, or product** that is publicly distributed.
+- ❌ **You CANNOT use this code in any product that is sold, licensed, or monetized** in any way.
+- ❌ **You CANNOT remove or alter** this license, copyright notice, or author information.
+- ❌ **You CANNOT claim authorship** of this code or any part of it.
+- ❌ **You CANNOT use this code in any project that competes** with the author's commercial interests.
+- ❌ **You CANNOT use this code for any purpose** other than personal study, without prior written permission.
+
+### Requests for permission
+
+To request permission for any use not explicitly permitted above, contact the author:
+
+**Ryszard Paluch**
+- Email: [rick1961pl@gmail.com](mailto:rick1961pl@gmail.com)
+- GitHub: [@rick1961pl-ops](https://github.com/rick1961pl-ops)
+
+All requests are reviewed individually. **Permission is granted only in writing (email) and only for the specific use described in the request.** The author reserves the right to refuse permission or to grant it under additional conditions (e.g. royalty fees, attribution requirements).
+
+### No warranty
+
+THIS CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE CODE OR THE USE OR OTHER DEALINGS IN THE CODE.
 
 ## Author
 
