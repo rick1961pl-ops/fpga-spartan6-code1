@@ -188,9 +188,10 @@ ram[0] = CMD_SD_SEND (40)
 | 6 | `IRQ_RTS` | RTS line changed |
 | 7 | (reserved) | — |
 
-## License
+## License — Source Available / Non-Commercial
 
-**All Rights Reserved.**
+**Source Available — Non-Commercial License**
+This project is source-available and is **not released under an Open Source license**.
 **Copyright (c) 2026 Ryszard Paluch. All rights reserved.**
 
 ### What you CAN do
@@ -198,20 +199,19 @@ ram[0] = CMD_SD_SEND (40)
 - ✅ **View** the source code.
 - ✅ **Read** and **study** the source code.
 - ✅ **Use** the source code for **personal, non-commercial, educational purposes only**.
-- ✅ **Fork** the repository on GitHub (as required by GitHub Terms of Service).
 - ✅ **Reference** this project in academic or educational work (with proper attribution).
 
 ### What you CANNOT do
 
 - ❌ **You CANNOT use this code in any commercial product or service.**
-- ❌ **You CANNOT copy, modify, or create derivative works** based on this code.
+- ❌ **You CANNOT modify or create derivative works** based on this code without prior written permission.
 - ❌ **You CANNOT redistribute, sublicense, or publish** this code in any form.
 - ❌ **You CANNOT use this code in any project, repository, or product** that is publicly distributed.
 - ❌ **You CANNOT use this code in any product that is sold, licensed, or monetized** in any way.
 - ❌ **You CANNOT remove or alter** this license, copyright notice, or author information.
 - ❌ **You CANNOT claim authorship** of this code or any part of it.
 - ❌ **You CANNOT use this code in any project that competes** with the author's commercial interests.
-- ❌ **You CANNOT use this code for any purpose** other than personal study, without prior written permission.
+- ❌ **You CANNOT use this code for purposes other than personal, educational, or non-commercial use** without prior written permission.
 
 ### Requests for permission
 
