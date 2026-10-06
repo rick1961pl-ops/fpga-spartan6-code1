@@ -84,6 +84,20 @@ The schematic includes:
 - CPU parallel bus connector
 - Interrupt line (INT)
 
+## Photos
+
+### Assembled Board
+
+| Front | Back |
+|-------|------|
+| [![Board front](photos/board-front.jpg)](photos/board-front.jpg) | [![Board back](photos/board-back.jpg)](photos/board-back.jpg) |
+
+### Bare PCB
+
+| Front | Back |
+|-------|------|
+| [![PCB front](photos/pcb-front.jpg)](photos/pcb-front.jpg) | [![PCB back](photos/pcb-back.jpg)](photos/pcb-back.jpg) |
+
 ## How to Build
 
 1. **Install Xilinx ISE 14.7** (WebPACK edition is sufficient for Spartan-6).
