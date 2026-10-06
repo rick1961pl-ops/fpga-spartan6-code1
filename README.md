@@ -1,5 +1,11 @@
 # FPGA Spartan-6 XC6SLX9 Project
 
+> **🚧 Status: Work in Progress**
+>
+> This project is currently under active development.
+> The hardware, software, documentation, photos, and demonstration videos
+> are being developed and will be updated regularly.
+
 A custom FPGA system built on the **Xilinx Spartan-6 XC6SLX9** chip. The project integrates multiple classic controllers and modules into a single chip, creating a platform similar to a retro computer.
 
 The system is written entirely in **Verilog HDL** and synthesized in **Xilinx ISE 14.7**. It provides a complete graphics and I/O platform: VGA output with framebuffer, text and sprite engines, PS/2 keyboard, UART, SD card support, and a custom CPU interface for issuing commands.
