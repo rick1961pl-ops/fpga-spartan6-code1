@@ -1,94 +1,89 @@
-All Rights Reserved
-Copyright (c) 2026 Ryszard Paluch. All rights reserved.
+All Rights Reserved  
+Copyright (c) 2026 Ryszard Paluch.
 
 ================================================================================
-                            TERMS AND CONDITIONS
+                         LICENSE AND TERMS OF USE
 ================================================================================
 
 This source code, documentation, schematics, and all associated files
-(collectively, "the Work") are the exclusive property of Ryszard Paluch
-("the Author").
+(collectively, the "Work") are the property of Ryszard Paluch
+(the "Author").
 
-By accessing, viewing, or using the Work, you agree to the following terms
-and conditions. If you do not agree, you must not access, view, or use
-the Work.
+Copyright remains with the Author. No ownership rights are transferred
+by making the Work publicly available.
 
 ================================================================================
-                            PERMITTED USE
+                              PERMITTED USE
 ================================================================================
 
 You ARE permitted to:
 
-  1. View the source code.
+1. View, download, and study the Work for personal, non-commercial,
+   educational and research purposes.
 
-  2. Read and study the source code for personal, non-commercial,
-     educational purposes only.
+2. Download and redistribute unmodified copies of the Work, including
+   the complete project ZIP files published by the Author, provided that
+   this license and all copyright notices remain included.
 
-  3. Reference this project in academic or educational work, provided that
-     proper attribution is given to the Author (name, repository URL).
+3. Reference the Work in academic, educational, or technical publications,
+   provided that proper attribution is given to the Author and the original
+   repository URL is included.
 
-================================================================================
-                            PROHIBITED USE
-================================================================================
-
-You are NOT permitted to, without prior written permission from the Author:
-
-  1. Use this code, in whole or in part, in any commercial product,
-     service, or offering.
-
-  2. Copy, modify, or create derivative works based on this code.
-
-  3. Redistribute, sublicense, or publish this code in any form,
-     including but not limited to: GitHub, GitLab, Bitbucket, personal
-     websites, forums, or any other public or private distribution
-     channel.
-
-  4. Use this code in any project, repository, or product that is
-     publicly distributed.
-
-  5. Use this code in any product that is sold, licensed, or monetized
-     in any way.
-
-  6. Remove or alter this license, copyright notice, or author
-     information.
-
-  7. Claim authorship of this code or any part of it.
-
-  8. Use this code in any project that competes with the Author's
-     commercial interests.
-
-  9. Use this code for any purpose other than personal, educational,
-     or otherwise expressly permitted non-commercial use.
+4. Link to the original repository and releases.
 
 ================================================================================
-                        REQUESTS FOR PERMISSION
+                             PROHIBITED USE
 ================================================================================
 
-To request permission for any use not explicitly permitted above, contact
-the Author:
+Without prior written permission from the Author, you are NOT permitted to:
 
-    Ryszard Paluch
-    Email: info@retro.aurora.com.pl
-    GitHub: https://github.com/rick1961pl-ops
+1. Use the Work, in whole or in part, in commercial products, services,
+   or other commercial offerings.
 
-All requests are reviewed individually. Permission is granted only in
-writing (email) and only for the specific use described in the request.
-The Author reserves the right to refuse permission or to grant it under
-additional conditions (e.g. royalty fees, attribution requirements).
+2. Modify, adapt, translate, or create derivative works based on the Work.
 
-================================================================================
-                            NO WARRANTY
-================================================================================
+3. Remove, alter, or obscure this license, copyright notice, or author
+   information.
 
-THIS CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+4. Claim authorship or ownership of the Work or any part of it.
 
-IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE CODE OR THE USE OR OTHER DEALINGS
-IN THE CODE.
+5. Redistribute modified versions of the Work.
+
+6. Use the Work in a product or project that is sold, licensed, or monetized
+   in any way.
+
+7. Use the Work for purposes other than those expressly permitted by
+   this license.
 
 ================================================================================
-                            END OF TERMS
+                         REQUESTS FOR PERMISSION
+================================================================================
+
+Any use not expressly permitted by this license requires prior written
+permission from the Author.
+
+Contact:
+
+Ryszard Paluch  
+Email: info@retro.aurora.com.pl  
+GitHub: https://github.com/rick1961pl-ops
+
+Permission is granted only in writing and only for the specific use
+described in the permission. The Author may refuse permission or grant
+it subject to additional conditions.
+
+================================================================================
+                              NO WARRANTY
+================================================================================
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE WORK OR THE
+USE OR OTHER DEALINGS IN THE WORK.
+
+================================================================================
+                              END OF LICENSE
 ================================================================================
