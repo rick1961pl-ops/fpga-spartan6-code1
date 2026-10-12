@@ -1,93 +1,56 @@
-All Rights Reserved  
-Copyright (c) 2026 Ryszard Paluch. All rights reserved.
+# Changelog
 
-================================================================================
-                         LICENSE AND TERMS OF USE
-================================================================================
+All notable changes to this project will be documented in this file.
 
-This source code, documentation, schematics, and all associated files
-(collectively, the "Work") are the property of Ryszard Paluch
-(the "Author").
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-Copyright remains with the Author. No ownership rights are transferred
-by making the Work publicly available.
+## [Unreleased]
 
-================================================================================
-                              PERMITTED USE
-================================================================================
+### Added
+- (future changes go here)
 
-You ARE permitted to:
+## [1.1.0] - 2026-10-10
 
-1. View, download, and study the Work for personal, non-commercial,
-   educational and research purposes.
+Version 1.1 introduces three new graphics commands and expands SRAM to a full 16-bit data width, enabling on-the-fly switching between graphics buffers.
 
-2. Download and redistribute unmodified copies of the Work, including
-   the complete project ZIP files published by the Author, provided that
-   this license and all copyright notices remain included. Redistribution
-   is permitted only through the Author's original repository and official
-   release pages. Republishing, mirroring, or uploading copies of the Work
-   to other websites, repositories, file-sharing services, or distribution
-   platforms is prohibited without prior written permission from the Author.
+### Added
+- `CMD_DRAW_LINE` (23) — draws lines using Bresenham's algorithm, with optional thickness and dashed style.
+- `CMD_SET_BUF_LB` (32) — switches the active graphics buffer to the lower SRAM byte (LB).
+- `CMD_SET_BUF_UB` (33) — switches the active graphics buffer to the upper SRAM byte (UB).
 
-3. Reference the Work in academic, educational, or technical publications,
-   provided that proper attribution is given to the Author and the original
-   repository URL is included.
+### Changed
+- SRAM data bus expanded from 8 bits to 16 bits (`sram_data[15:0]`).
+- UCF file — uncommented pin assignments for the upper SRAM byte (D8–D15).
+- SRAM controller (`sram_ctrl.v`) — added the `buf_sel` input for switching between the lower and upper bytes.
+- CPU interface (`cpu_ram.v`) — added the `buf_sel` output and support for the new commands.
 
-4. Link to the original repository and releases.
+### Fixed
+- Fixed stray pixels when drawing thick lines.
+- Fixed initialization of `wr_req` before starting a new thickness block.
 
-================================================================================
-                             PROHIBITED USE
-================================================================================
+### Notes
+- Default buffer after FPGA reset: **LB** (`buf_sel = 0`).
+- The contents of the upper SRAM byte are undefined at power-up. Before drawing, it is recommended to clear the buffer using the `CMD_CLEAR_FRAMEBUFFER` command.
 
-Without prior written permission from the Author, you are NOT permitted to:
+## [1.0.0] - 2026-10-06
 
-1. Use the Work, in whole or in part, in commercial products, services,
-   or other commercial offerings.
+### Added
+- VGA Controller 640x480@60Hz
+- SRAM Framebuffer 640x480 8bpp RGB332
+- Text Engine 80x60 characters, 8x8 font
+- Sprite Engine 8x 16x16 sprites
+- PS/2 Keyboard with ASCII decoding
+- UART 9600–115200 bps
+- SD Card SPI (CMD0, CMD8, CMD17, CMD24, CMD55, ACMD41, CMD58)
+- CPU Interface with 16 registers
+- 8-bit Timer with prescaler
+- RTC 32-bit Unix timestamp
+- LFSR 8-bit and 16-bit
+- PCB schematic (PDF)
+- Photos of assembled board and bare PCB
+- Source Available / Non-Commercial license
 
-2. Modify, adapt, translate, or create derivative works based on the Work.
-
-3. Remove, alter, or obscure this license, copyright notice, or author
-   information.
-
-4. Claim authorship or ownership of the Work or any part of it.
-
-5. Redistribute modified versions of the Work.
-
-6. Use the Work in a product or project that is sold, licensed, or monetized
-   in any way.
-
-7. Use the Work for purposes other than those expressly permitted by
-   this license.
-
-================================================================================
-                         REQUESTS FOR PERMISSION
-================================================================================
-
-Any use not expressly permitted by this license requires prior written
-permission from the Author.
-
-Contact:
-
-Ryszard Paluch  
-Email: info@retro.aurora.com.pl  
-GitHub: https://github.com/rick1961pl-ops
-
-Permission is granted only in writing and only for the specific use
-described in the permission. The Author may refuse permission or grant
-it subject to additional conditions.
-
-================================================================================
-                              NO WARRANTY
-================================================================================
-
-THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
-
-IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
-LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE WORK OR THE
-USE OR OTHER DEALINGS IN THE WORK.
-
-================================================================================
-                              END OF LICENSE
-================================================================================
+[Unreleased]: https://github.com/rick1961pl-ops/fpga-spartan6-code1/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/rick1961pl-ops/fpga-spartan6-code1/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/rick1961pl-ops/fpga-spartan6-code1/releases/tag/v1.0.0
